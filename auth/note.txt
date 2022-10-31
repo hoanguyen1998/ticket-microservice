@@ -1,0 +1,18 @@
+1.  signout.test.js
+    change from
+    expect(response.get('Set-Cookie')[0]).toEqual(
+        'express:sess=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; httponly'
+    );
+
+    to:
+    expect(response.get('Set-Cookie')[0]).toEqual(
+        'session=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; httponly'
+    );
+
+    for new version of cookie-session lib
+
+2.  update Next.js version
+
+3 - before publish, run the commands:
+    npm login
+    npm publish --access public
