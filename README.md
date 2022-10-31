@@ -1,6 +1,6 @@
 # Simple Node.js Microservice Application #
 
-Application for booking tickets using Asynchoronous Event throught NATS Server (Message Queue Architecture) and Optimistic Concurrency Controll (OCC)
+Application for booking tickets using Event-based Architecture and Optimistic Concurrency Controll (OCC)
 
 ## List of Event ##
 
@@ -21,6 +21,10 @@ Application for booking tickets using Asynchoronous Event throught NATS Server (
 
 ### Paid Order ###
 ![Ảnh chụp Màn hình 2022-10-31 lúc 09 43 12](https://user-images.githubusercontent.com/36908718/198923283-897405fe-b3e2-4c5b-8ba3-30b59ef06013.png)
+
+## Expiration Service ##
+![Ảnh chụp Màn hình 2022-10-31 lúc 14 24 25](https://user-images.githubusercontent.com/36908718/198954672-c26a2e71-dc6d-48a4-941d-bc91793cfe47.png)
+
 
 ## Optimistic Concurrency Controll ##
 If you have multiple instance of Order Service (A,B,C,D), it will lead to out-of-order-event error, each instance will handle different ticket:updated events simutaneously. For example, ticket service update price for one ticket by 10, and then update price for that ticket by 15. There is 2 event ticket:updated, one is update price by 10 (event-1) and other is update price by 15 (event-2). Instance A will handle event-1 and instance B will handle event-2. If instance B successfully update price of that ticket first, the price will be wrong.
