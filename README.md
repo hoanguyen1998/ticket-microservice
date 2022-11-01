@@ -3,24 +3,25 @@
 Application for booking tickets using Event-based Architecture and Optimistic Concurrency Controll (OCC)
 
 ## List of Event ##
+![Ảnh chụp Màn hình 2022-11-01 lúc 17 23 42](https://user-images.githubusercontent.com/36908718/199213783-a08fc707-615b-4ce5-9f29-1bb596f78757.png)
 
 ### New Ticket ###
-![Ảnh chụp Màn hình 2022-10-31 lúc 09 36 38](https://user-images.githubusercontent.com/36908718/198923119-539e9d5e-d807-4b4c-b853-e3f272f4df14.png)
+![Ảnh chụp Màn hình 2022-11-01 lúc 17 23 58](https://user-images.githubusercontent.com/36908718/199213493-eb326e41-f69c-4cf1-88ce-3ddb08c28274.png)
 
 ### Update Ticket ###
-![Ảnh chụp Màn hình 2022-10-31 lúc 09 37 21](https://user-images.githubusercontent.com/36908718/198923254-1f374f2f-7757-44b1-87a9-ed864acfbb7b.png)
+![Ảnh chụp Màn hình 2022-11-01 lúc 17 24 05](https://user-images.githubusercontent.com/36908718/199213534-f24307f3-22d9-4e20-bce0-97ea8e48d010.png)
 
 ### New Order ###
-![Ảnh chụp Màn hình 2022-10-31 lúc 09 46 22](https://user-images.githubusercontent.com/36908718/198923263-4ff11b26-cd17-4fac-bf4d-d6bbdd13f78e.png)
+![Ảnh chụp Màn hình 2022-11-01 lúc 17 24 13](https://user-images.githubusercontent.com/36908718/199213563-8b321e6c-77c6-45d2-8214-b68de6590833.png)
 
 ### Cancell Order ###
-![Ảnh chụp Màn hình 2022-10-31 lúc 09 41 40](https://user-images.githubusercontent.com/36908718/198923267-5dd33fb1-8f73-4f70-83bd-ab55b4ab5d22.png)
+![Ảnh chụp Màn hình 2022-11-01 lúc 17 24 17](https://user-images.githubusercontent.com/36908718/199213623-2df94403-2df0-4eca-a2ea-055e8352539c.png)
 
 ### Expired Order ###
-![Ảnh chụp Màn hình 2022-10-31 lúc 09 43 03](https://user-images.githubusercontent.com/36908718/198923276-5ee51444-7552-4ede-b503-a0358148fde6.png)
+![Ảnh chụp Màn hình 2022-11-01 lúc 17 24 29](https://user-images.githubusercontent.com/36908718/199213661-ecefecc1-9e58-405a-ba79-af51db00d437.png)
 
 ### Paid Order ###
-![Ảnh chụp Màn hình 2022-10-31 lúc 09 43 12](https://user-images.githubusercontent.com/36908718/198923283-897405fe-b3e2-4c5b-8ba3-30b59ef06013.png)
+![Ảnh chụp Màn hình 2022-11-01 lúc 17 24 23](https://user-images.githubusercontent.com/36908718/199213694-b4a60131-4718-48dc-8204-a228acc159b1.png)
 
 ## Expiration Service ##
 ![Ảnh chụp Màn hình 2022-10-31 lúc 14 24 25](https://user-images.githubusercontent.com/36908718/198954672-c26a2e71-dc6d-48a4-941d-bc91793cfe47.png)
